@@ -24,6 +24,25 @@ body {
   height: 72px;
   padding-left: 25px;
   float: left;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.user-name {
+  font-size: 32px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  padding: 0px 4px;
+  position: relative;
+  top: -2px;
+}
+
+.user-account {
+  font-size: 28px;
+  color: rgb(104, 109, 129);
+  position: relative;
+  left: -9px;
 }
 
 .follow-button {
@@ -48,4 +67,32 @@ body {
   color: rgb(85, 172, 238);
   position: relative;
   top: -5px;
+}
+
+.tweet-text {
+  color: rgb(0, 0, 0);
+  clear: both;
+  font-size: 32px;
+  margin: 105px 0px 20px 0px;
+}
+
+.tweet-time {
+  font-size: 28px;
+  color: rgb(101, 116, 127);
+  position: relative;
+  bottom: 7px;
+}
+
+.tweet-footer {
+  font-size: 28px;
+  color: rgb(105, 120, 130);
+  margin-top: 20px;
+}
+
+.reply-icon {
+  margin-right: 34px;
+}
+
+.favorite-icon {
+  margin-left: 34px;
 }
