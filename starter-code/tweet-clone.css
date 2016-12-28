@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(244, 248, 249);
+  font-family: helvetica;
+}
+
+.main-tweet-container {
+  width: 920px;
+  height: 235px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin: 10px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(225, 232, 237);
+}
+
+.profile-picture {
+  float: left;
+}
+
+.tweet-author {
+  width: 284px;
+  height: 72px;
+  padding-left: 25px;
+  float: left;
+}
+
+.follow-button {
+  width: 160px;
+  height: 40px;
+  border: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(85, 172, 238);
+  float: right;
+  padding: 15px 10px 5px 10px;
+}
+
+.follow-logo {
+  padding-left: 16px;
+  padding-right: 8px;
+}
+
+.follow-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(85, 172, 238);
+  position: relative;
+  top: -5px;
+}
